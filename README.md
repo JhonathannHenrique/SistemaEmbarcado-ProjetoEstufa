@@ -1,8 +1,8 @@
-# 🌿 Controlador de Estufa Inteligente com Arduino
+# Controlador de Estufa Inteligente com Arduino
 
 Este projeto consiste em um sistema automatizado para monitoramento e controle de microclima para estufas agrícolas ou domésticas. O sistema utiliza um Arduino para gerenciar a temperatura, a umidade do ar e a luminosidade, oferecendo feedbacks visuais, sonoros e atuando diretamente na iluminação artificial através de um relé.
 
-## 📋 Funcionalidades
+## Funcionalidades
 
 *   **Monitoramento Ambiental:** Leitura constante de Temperatura e Umidade do Ar (via DHT11) e Luminosidade (via LDR).
 *   **Controle de Iluminação:** Acionamento automático de lâmpadas (via Relé) quando o ambiente escurece.
@@ -15,7 +15,7 @@ Este projeto consiste em um sistema automatizado para monitoramento e controle d
 
 ---
 
-## 🛠️ Hardware Necessário
+## Hardware Necessário
 
 *   1x Placa Arduino (Uno, Nano ou compatível)
 *   1x Sensor de Temperatura e Umidade **DHT11**
@@ -27,7 +27,7 @@ Este projeto consiste em um sistema automatizado para monitoramento e controle d
 
 ---
 
-## 🔌 Pinagem (Conexões)
+## Pinagem (Conexões)
 
 | Componente | Pino do Arduino | Observação |
 | :--- | :--- | :--- |
@@ -41,7 +41,7 @@ Este projeto consiste em um sistema automatizado para monitoramento e controle d
 
 ---
 
-## ⚙️ Parâmetros de Controle (Lógica)
+## Parâmetros de Controle (Lógica)
 
 O sistema toma decisões baseadas nas seguintes faixas de valores:
 
